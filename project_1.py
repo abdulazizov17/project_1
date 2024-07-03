@@ -1,13 +1,13 @@
-import psycopyg2
-conn = psycopyg2.connect(database = 'n48',
-                        user = 'posgres',
+import psycopg2
+conn = psycopg2.connect(database = 'n48',
+                        user = 'postgres',
                         host = 'localhost',
                         password = 'qazwsx',
                         port = 5432
                         )
 cursor = conn.cursor()
 
-create_foydalanuvchi_table = '''create_table_foydalanuvchi(
+create_foydalanuvchi_table = '''create table foydalanuvchi(
       
     id serial primary key ,
     first_name varchar(100),
@@ -51,7 +51,7 @@ class User:
         '''
         
             
-update_table = User('Kevin','Bruno','Kevindebruno','kevindebruno17@gmail.com',32,True)
+update_table = User('Kevin','Bruno','Kevindebrune','kevindebruno17@gmail.com',32,True)
 update_table.update_user     
 user_male = User('john','Doe','johnDoe','joh@gmail.com',32,True)
 user_male.save

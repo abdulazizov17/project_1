@@ -51,7 +51,7 @@ class User:
         '''
         
             
-update_table = User('Kevin','Bruno','Kevindebruno','kevindebruno17@gmail.com',32,True)
+update_table = User('Kevin','Bruno','Kevindebrune','kevindebruno17@gmail.com',32,True)
 update_table.update_user     
 user_male = User('john','Doe','johnDoe','joh@gmail.com',32,True)
 user_male.save
