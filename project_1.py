@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 import psycopg2
 conn = psycopg2.connect(database = 'n48',
                         user = 'postgres',
@@ -58,7 +58,7 @@ user_male = User('john','Doe','johnDoe','joh@gmail.com',32,True)
 user_male.save
 user_female = User('Anna','Asti','anniasti','anna10@gmail.com',27,True)
 user_female.save
-=======
-print(123)
-print(1)
->>>>>>> 6ab5a463b6e543052194677f2b0564d9041882f1
+# =======
+# print(123)
+# print(1)
+# >>>>>>> 6ab5a463b6e543052194677f2b0564d9041882f1
