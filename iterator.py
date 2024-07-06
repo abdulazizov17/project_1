@@ -9,8 +9,6 @@ class FibonacciIterator:
         result = self.a
         self.a, self.b = self.b, self.a + self.b
         return result
-
-# Example usage:
 fib_iter = FibonacciIterator()
-for i in range(10):
+for i in range(50):
     print(next(fib_iter))
