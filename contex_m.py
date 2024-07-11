@@ -1,5 +1,4 @@
 import psycopg2
-
 db_conn = {
     'database': 'n48',
     'user': 'postgres',
@@ -7,7 +6,6 @@ db_conn = {
     'host': 'localhost',
     'port': 5432
 }
-
 class DatabaseConnect:
     def __init__(self, db_conn) -> None:
         self.db_conn = db_conn
@@ -72,4 +70,3 @@ print(books)
 book_manager.delete_book(1)
 books = book_manager.read_books()
 print(books)
-
