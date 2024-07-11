@@ -73,4 +73,3 @@ book_manager.delete_book(1)
 books = book_manager.read_books()
 print(books)
 
-            
